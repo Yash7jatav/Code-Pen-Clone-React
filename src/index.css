@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.topPen{
+    background-color: gray;
+}
+
+.pen{
+    height: 55vh;
+    display: flex;
+}
+
+.editorContainer{
+    flex-grow: 1;
+    flex-basis: 0;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.editorTitle{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    align-items: center;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.CodeMirror{
+    height: 100% !important;
+}
+
+.codeMwrapper{
+    flex-grow: 1;
+    overflow: hidden;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+
+.editorContainer.collapsed{
+    flex-grow: 0;
+}
+
+.editorContainer.collapsed .CodeMirror-scroll{
+    position: absolute;
+    overflow: hidden !important;
+}
+
+.expandBtn{
+    cursor: pointer;
+    background : none;
+    color: white;
+    border: none;
+    font-size: 0.7rem;
+}
+
+button{
+    background-color: blue;
+}
