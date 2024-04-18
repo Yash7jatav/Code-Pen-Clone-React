@@ -1,8 +1,15 @@
-# React + Vite
+## CodePen Clone
+This is a CodePen clone project built using HTML, CSS, JavaScript, and React. It allows users to write and share HTML, CSS, and JavaScript code snippets in an online editor environment similar to CodePen.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+Code Editor: Users can write HTML, CSS, and JavaScript code in separate panels.
+Live Preview: Changes made in the code editor are immediately reflected in the live preview panel.
+Responsive Design: The application is responsive and works well on various screen sizes.
 
-Currently, two official plugins are available:
+## Technologies Used
+HTML: Used for structuring the web pages.
+CSS: Used for styling the user interface.
+JavaScript: Used for interactive behavior and DOM manipulation.
+React: Used for building the user interface and managing state.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[See Demo](https://github.com/Yash7jatav/Code-Pen-Clone-React)
